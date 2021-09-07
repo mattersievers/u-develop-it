@@ -20,6 +20,7 @@
   "homepage": "https://github.com/mattersievers/u-develop-it#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "hunspell-spellchecker": "^1.0.2",
     "mysql2": "^2.3.0"
   },
   "devDependencies": {
