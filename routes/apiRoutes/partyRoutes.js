@@ -19,7 +19,7 @@ router.get('/parties', (req,res) => {
 
 //get a single party
 router.get('/party/:id', (req,res) => {
-    const sql = `SELECT * FROM parties WHERE id-?`;
+    const sql = `SELECT * FROM parties WHERE id=?`;
     const params = [req.params.id];
     db.query(sql, params, (err,row) => {
         if(err){
